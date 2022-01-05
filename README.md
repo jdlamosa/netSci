@@ -1,2 +1,6 @@
 # netSci
 Mobility networks from agent displacements on a cellular space
+
+In the work presented at the NetSci event, we analyze complex network indices from data generated randomly in a structured cellular space. We aim to measure how commutes can affect a disease's spread. Our proxy is that the contact network among people is related to the mobility network among places where people live, work, study - their entire activity space. To measure how commutes can impact the disease's spread. The grid represents the space and the agents the population, and these agents can move (commutes) around in space according to a mobility rate. Thus, some graph's topological properties were analyzed: average Degree (connectivity), average Clustering (a measure for redundancy), diameter (the largest of all possible shortest paths), and the number of different connected components. With a grid of size 8, the diameter varied between 2 and 12 when the mobility rate change from 0.01 to 3 and the population size from 5,000 to 25,000. This analysis may make it possible to assist in support strategies to reduce the spread of a transmissible disease.
+
+Obs: Here the values used are examples and not the values used in the work.
